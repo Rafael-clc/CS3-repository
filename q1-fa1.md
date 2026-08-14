@@ -23,7 +23,7 @@ Please list possible sub-problems:
 
 
 Step 3: Define Computational Thinking Approaches
-
+![table](https://github.com/Rafael-clc/CS3-repository/blob/main/Screenshot%202026-08-14%20155341.png)
 
  Step 4: Draw a flowchart or write a pseudocode for the identified sub-problem
 1. Start
