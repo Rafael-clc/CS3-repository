@@ -1,1 +1,23 @@
-https://onlinegdb.com/lgfEqiE41
+year = int(input("Enter your birth year: "))
+zodiac = [
+"Rat (鼠 / Shǔ)",
+"Ox (牛 / Niú)",
+"Tiger (虎 / Hǔ)",
+"Rabbit (兔 / Tù)",
+"Dragon (龙 / Lóng)",
+"Snake (蛇 / Shé)",
+"Horse (马 / Mǎ)",
+"Goat (羊 / Yáng)",
+"Monkey (猴 / Hóu)",
+"Rooster (鸡 / Jī)",
+"Dog (狗 / Gǒu)",
+"Pig (猪 / Zhū)"
+]
+
+if year < 1900:
+    print("Invalid Year, it should not be earlier than 1900")
+elif year > 2026:
+    print("Invalid year, it should not be later than 2026")
+
+sign = zodiac[(year-1900) % 12]
+print(f"Your chinese zodiac sign is: {sign}")
